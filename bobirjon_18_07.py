@@ -52,16 +52,16 @@ from math import *
 # Prezidenti: {self.prizidenti}"""
 
 
-lst = []
-for i in range(4):
-    d=input("Davlat nomi:")
-    p=input("poytaxti: ")
-    a=int(input("Aholi soni: "))
-    s=float(input("maydoni:"))
-    _=input("Prezidenti: ")
-    davlat = Countries(d,p,a,s,_)
-    lst.append(davlat)
-lst.sort(key=lambda x: x.nomi)
-for i in range(len(lst)):
-    print(lst[i].Malumot())
+# lst = []
+# for i in range(4):
+#     d=input("Davlat nomi:")
+#     p=input("poytaxti: ")
+#     a=int(input("Aholi soni: "))
+#     s=float(input("maydoni:"))
+#     _=input("Prezidenti: ")
+#     davlat = Countries(d,p,a,s,_)
+#     lst.append(davlat)
+# lst.sort(key=lambda x: x.nomi)
+# for i in range(len(lst)):
+#     print(lst[i].Malumot())
 
